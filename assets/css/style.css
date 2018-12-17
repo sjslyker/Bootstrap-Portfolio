@@ -1,0 +1,195 @@
+/*CSS Style Sheet */
+
+.TopWidth {
+  width: 100%;
+  margin-top: -20px;
+  background: #ffffff;
+  border-bottom: 3px solid #cccccc;
+}
+
+
+
+/* Nav Section */
+.navbar-brand {
+  width: 250px;
+  background: #4aaaa5;
+  float: left;
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 21.5px;
+}
+
+/* .navA {
+  float: right;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+}
+
+.navP {
+  float: right;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+}
+
+.navC {
+  float: right;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+} */
+
+.navbar-nav {
+  margin-top: 20px;
+  padding-top: 25px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  float: right;
+  color: #777777;
+  text-decoration: none;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.Name-Menu{
+  width: 85%;
+  margin: auto;
+}
+
+/* Header Design */
+
+h1 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#h1Overide {
+  color: #ffffff;
+  margin-top: 20px;
+
+}
+
+h2 {
+  font-size: 28px;
+  color: #4aaaa5;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/* Main Content Design */
+
+.contentBorder {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  background-image: url("gray_jean.png");
+}
+
+.container{
+  max-width: 85%;
+  margin: auto;
+  align-self: center;
+  background: #ffffff;
+  margin-top: 50px;
+}
+
+/* image */
+.imgAbout {
+  height: 200px;
+  width: 250px;
+  float: left;
+  padding: 5px 20px 5px 0px;
+}
+
+/*  Portfolio page specific*/
+/* main section set up */
+.container-p {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  margin-right: 50px;
+}
+/* image restrictions */
+.container-p img {
+  width: 100%;
+  border: 0 none;
+}
+/* text design */
+.container-p h4 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-family: “Georgia, ‘Times New Roman’, Times, serif”;
+  font-size: 22px;
+}
+
+.containerP {
+  margin-right: 100px;
+}
+
+/* CONTACT FORM */
+/* form sections design */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/* button design */
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* button hover */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*  FOOTER  */
+footer {
+  text-align: center;
+  background-color: #666666;
+  color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  border-top: 8px solid #4aaaa5;
+  bottom: 0%;
+  margin-top: 40px;
+  margin-bottom: -30px;
+  line-height: 90px;
+  font-size: 12px;
+}
+
+
