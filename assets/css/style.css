@@ -150,6 +150,11 @@ body {
   margin-right: 100px;
 }
 
+.portfolioplc{
+  height: 200px;
+  width: 200px;
+}
+
 /* CONTACT FORM */
 /* form sections design */
 input[type=text], textarea {
